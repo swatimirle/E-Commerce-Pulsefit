@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Pulsefit | E-Commerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ---------- Header Section ---------- -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/download1.png" width="135px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" width="30px" height="30px" class="menu-icon"
+                onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency. Consistent <br> hard work gains success. Greatness will come.</p>
+                    <a href="#" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="Workout Hero Image" width="400" height="400">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------- Featured Categories ---------- -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-4.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-5.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------- Featured Products ---------- -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <a href="product-details.html"><img src="images/gallery-4.jpg"></a>
+                </div>
+                <a href="product-details.html"><h4>Casual White Shirt</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$189.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-3.jpg" alt="">
+                </div>
+                
+                <h4>Printed Stylish Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$179.00</p>
+            </div>
+
+            <div class="col-4">
+                
+                <div class="image-wrapper">
+                    <img src="images/product-8.jpg">
+                </div>
+                <h4>Maroon Comfy T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$199.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-9.jpg">
+                </div>
+                <h4>Plain White T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$189.00</p>
+            </div>
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-4.jpg">
+                </div>
+                <h4>Comfy Men's Trouser</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    
+                </div>
+                <p>$359.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-5.jpg">
+                </div>
+                <h4>Stylish Denim Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <p>$299.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-6.jpg">
+                </div>
+                <h4>Black Men's Jeans</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$500.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-7.jpg">
+                </div>
+                <h4>Formal Men's Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$999.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-11.jpg" alt="">
+                </div>
+                
+                <h4>Men's Lofer Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$779.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-12.jpg" alt="">
+                </div>
+                
+                <h4>Men's lase Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$479.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-13.jpg" alt="">
+                </div>
+                
+                <h4>Men's Hoodie Attached T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$689.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-14.jpg" alt="">
+                </div>
+                
+                <h4>Half-sleevs Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$479.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-15.jpg" alt="">
+                </div>
+                
+                <h4>Basic Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$489.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-16.jpg" alt="">
+                </div>
+                
+                <h4>Comfy Bottom</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$999.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-17.jpg" alt="">
+                </div>
+                
+                <h4>Combo-set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$1599.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-18.jpg" alt="">
+                </div>
+                
+                <h4>Co-ord set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$879.00</p>
+            </div>
+            
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-21.jpg" alt="">
+                </div>
+                <h4>Elegant co-ord set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$679.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                    <img src="images/product-22.jpg" alt="">
+                </div>
+                
+                <h4>Plain Neon Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$479.00</p>
+            </div>
+
+            <div class="col-4">
+                
+                <div class="image-wrapper">
+                    <img src="images/product-23.jpg">
+                </div>
+                <h4>Formal Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$598.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-24.jpg">
+                </div>                    
+                <h4>Stylish Coat Men's</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$189.00</p>
+            </div>
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-25.jpg">
+                </div>                    
+                <h4>Stylish Formal Shirtr</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+                <p>$359.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-26.jpg">
+                </div>                    
+                <h4>Men's Short</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <p>$299.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-27.jpg">
+                </div>                    
+                <h4>Daily-wear Bottom</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$500.00</p>
+            </div>
+
+            <div class="col-4">
+                <div class="image-wrapper">
+                <img src="images/product-28.jpg">
+                </div>                    
+                <h4>Slippers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$999.00</p>
+            </div>
+
+        </div>
+
+    </div>
+
+<!-------Offer---------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive9.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Pulsefit </p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger
+                        (than Mi Band 3) BLACK color full-touch display with
+                        adjustable brightness, so everything is
+                        clear as can be. </small><br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------testimonial------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>“Finally, a fitness store that gets both comfort and style right! Pulsefit’s designs are modern,
+                        breathable, and built for real workouts. Highly recommend!” </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                        <img src="images/user-4.png">
+                        <h3>Nikita Jamdar</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>“Finally, a fitness store that gets both comfort and style right! Pulsefit’s designs are modern, 
+                        breathable, and built for real workouts. Highly recommend!” </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                        <img src="images/user-5.png">
+                        <h3>Kunal Shah</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>“From track pants to resistance bands, everything I’ve ordered from Pulsefit is top quality.
+                        The packaging is neat, and the products are exactly as shown online.” </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="images/user-6.png">
+                        <h3>Shruti Kedar</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!------Brands------>
+
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-max.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logopuma.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-rolex.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-coco-cola.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-dior.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- ----------- Footer ------------ -->
+<div class="footer" style="background-color: #090909; color: white;">
+
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store2.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="images/download11.png" >
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+
+                <div class="footer-col-group">
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#">Blog Post</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Join Affiliate</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2022 - Swati Mirle</p>
+
+            </div>
+    </div>
+
+
+    <!---------js for toggle menu---------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+    </script>
+
+</body>
+</html>
